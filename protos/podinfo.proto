@@ -1,0 +1,15 @@
+syntax = "proto3";
+option go_package = "./podinfos";
+
+service PodInfo {
+    rpc GetPodInfo(EmptyMessage) returns (PodInfoOutput);
+}
+
+message EmptyMessage {}
+
+message PodInfoOutput {
+    string PodName = 1;
+    string WorkerName = 2;
+    string Version = 3;
+}
+
