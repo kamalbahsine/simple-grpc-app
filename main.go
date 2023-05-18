@@ -5,8 +5,8 @@ import (
 	"log"
 	"net"
 
-	protos "github.com/kamalbahsine/simple-grpc/protos/podinfos"
-	"github.com/kamalbahsine/simple-grpc/server"
+	protos "github.com/kamalbahsine/simple-grpc-app/protos/podinfos"
+	"github.com/kamalbahsine/simple-grpc-app/server"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
