@@ -14,12 +14,6 @@ import (
 
 func main() {
         
-	func NewPodInfo() *PodInfo {
-	return &PodInfo{}
-         }  
-
-
-
 	// create new gRPC server
 	s := grpc.NewServer()
 
