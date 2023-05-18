@@ -4,7 +4,6 @@ import (
  "context"
  "log"
  "os"
- "unicode/utf8"
 
  protos "github.com/kamalbahsine/simple-grpc-app/protos/podinfos"
 )
