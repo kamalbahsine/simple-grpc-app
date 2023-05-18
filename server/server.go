@@ -6,7 +6,7 @@ import (
  "os"
  "unicode/utf8"
 
- protos "github.com/kamalbahsine/simple-grpc/protos/podinfos"
+ protos "github.com/kamalbahsine/simple-grpc-app/protos/podinfos"
 )
 
 type PodInfo struct {
